@@ -60,30 +60,29 @@ Contact
 
 ## File Structure
 
- FECDataConnect/
- │
- ├── data/
- │   ├── raw/                # For storing raw scraped data
- │   ├── processed/          # For data that's been cleaned/transformed
- │   └── archive/            # For archival purposes (optional)
- │
- ├── src/
- │   ├── etl/
- │   │   ├── extract.py      # Code to extract data
- │   │   ├── transform.py    # Code to transform data
- │   │   └── load.py         # Code to load data into MariaDB
- │   │
- │   ├── utils/              # Helper scripts, utilities, etc.
- │   └── config.py           # Configuration variables/settings
- │
- ├── logs/                   # Directory for logs (if you're logging events/errors)
- │
- ├── tests/                  # For unit tests
- │
- ├── .gitignore              # Specifies intentionally untracked files to ignore
- ├── LICENSE
- ├── README.md
- └── requirements.txt        # Lists all project dependencies
-
+FECDataConnect/
+│
+├── data/
+│ ├── raw/ # For storing raw scraped data
+│ ├── processed/ # For data that's been cleaned/transformed
+│ └── archive/ # For archival purposes (optional)
+│
+├── src/
+│ ├── etl/
+│ │ ├── extract.py # Code to extract data
+│ │ ├── transform.py # Code to transform data
+│ │ └── load.py # Code to load data into MariaDB
+│ │
+│ ├── utils/ # Helper scripts, utilities, etc.
+│ └── config.py # Configuration variables/settings
+│
+├── logs/ # Directory for logs (if you're logging events/errors)
+│
+├── tests/ # For unit tests
+│
+├── .gitignore # Specifies intentionally untracked files to ignore
+├── LICENSE
+├── README.md
+└── requirements.txt # Lists all project dependencies
 
 Project Link: https://github.com/your_username/FECDataConnect
