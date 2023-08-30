@@ -58,8 +58,8 @@ For major changes, please open an issue first to discuss what you'd like to chan
 This project is licensed under the MIT License. For more details, see the LICENSE file in the repository.
 Contact
 
-## File Structure
-
+## Project File Structure
+```bash
 FECDataConnect/
 │
 ├── data/
@@ -84,4 +84,4 @@ FECDataConnect/
 ├── LICENSE
 ├── README.md
 └── requirements.txt         # Lists all project dependencies
-
+```bash
